@@ -1,0 +1,42 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	line-height: 1.5;
+}
+
+ul{
+  list-style: none;
+}
+li{
+  margin-top: 2.5%;
+  float: left;
+}
+img{
+  width: 90%;
+    transition: transform 1s ease-in-out;
+    border: 5px solid;
+}
+img:hover{
+    transform: scale(1.1);
+/*
+    transform: skewX(20deg);
+    transform: translate(300px, 225px);
+*/
+}
+@media screen and (min-width: 600px){
+/*   2 columns   */
+    li {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1200px){
+/*  4 columns    */
+    li {
+        width: 25%;
+    }
+}
+mew{
+   flex-direction: column;
+    ali
+}
